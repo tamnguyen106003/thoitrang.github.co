@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .column{
+        width:25%;
+        float: left;
+        }
+        .san-pham{
+            border-radius:10px;
+            box-shadow: 5px gray;
+            padding:10px;
+            margin:5px;
+            text-align: center;
+        }
+        .san-pham .ten{
+            font-size:larger;
+            font-variant: small-caps;
+            color:black;
+        }
+        .san-pham img{
+            max-width:95%
+        }
+        .san-pham .gia {
+            color: red;
+            font-weight:bold;
+            font-size:larger;
+        }
+        p>img {
+            border-radius: 10px;
+            background-color: red;
+            box-shadow: 5px orangered;
+        }
+        p>img:hover{
+            box-shadow: 20px orange;
+            background-color: brown;
+        }
+        div>img{
+            width : auto;
+            height: 300px;
+            padding: 10px;
+            margin: 5px;
+            border-radius: 5px;
+            background-color: gainsboro ;
+            box-shadow: 5px, black;
+        }
+        div>img:hover{
+            box-shadow:20px , red;
+            background-color : black;
+        }
+    </style>
+    <link rel="stylesheet" href="giaidoan2.css">
+</head>
+<body> 
+    <div id="body">
+       <header>
+            <p id="header">
+                <img src="img/H2.jpg" width="960" alt="">
+            </p>
+        </header>
+        <div id="menu">
+            <nav class="menu">
+                <ul>
+                    <li> <a href="#">Trang chủ</a>|</li>
+                    <li>
+                        <a href="#">Sản phẩm</a>|
+                        <ul class="Submenu">
+                            <li><a href="sanpham.html">Áo somi</a></li>
+                            <li><a href="sanpham2.html">Quần dài</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Tin tức</a>|
+                        <ul>
+                            <li><a href="tintuc.html">Tin tức</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Giới thiệu</a>|
+                        <ul>
+                            <li><a href="gioithieu.html">Giới thiệu</a></li>
+                        </ul>
+                    </li>
+                    <li> 
+                        <a href="#">Tính năng</a>|
+                        <ul>
+                            <li><a href="tinhnang.html">Tính năng</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Đăng nhập</a>
+                        <ul>
+                            <li><a href="dangnhap.html">Đăng nhập</a></li>
+                        </ul>
+                        <u1>
+                            <input type="search" class="search" namr="" placeholder="Tìm kiếm">
+                        </u1>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <aside>
+            <div class="aside" >
+                <ul>
+                    <li><a href="#">ĐỒ NAM</a></li>
+                    <li><a href="#">ĐỒ ĐÔI</a></li>
+                    <li><a href="#">ĐỒ NAM</a></li>
+                    <li><a href="#">ÁO KHOÁC</a></li>
+                    <li><a href="#">ÁO THUN</a></li>
+                    <li><a href="#">QUẦN DÀI</a></li>
+                    <li><a href="#">QUẦN NGẮN</a></li>
+                </ul>
+            </div>
+        </aside>
+       <div class="slide">
+            <h2 align="center">KHUYẾN MÃI TUẦN NÀY</h2>
+       </div>
+        <div id="content">
+            <div class="column"  >
+                <div class="san-pham">
+                    <div class="ten">ÁO KHOÁC DA</div>
+                    <img src="img/22012022120159_ao_khoac_da_M1AKA01201FOSBB_toto_shop___1__thumb.jpg" height="350"/> 
+                    <div class="gia">
+                        <div>500.000đ</div>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="san-pham">
+                    <div class="ten">ÁO KHOÁC</div>
+                    <img src="img/c5ffe7b9b09dcf8c0a2583d2ab998bc4.jpg" height="350"/> 
+                    <div class="gia">
+                        <div>500.000đ</div>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="san-pham">
+                    <div class="ten">QUẦN ỐNG RỘNG</div>
+                    <img src="img/2bf40d1589d270cc21de3587acbf52ab.jpg" height="350px" /> 
+                    <div class="gia">
+                        <div>500.000đ</div>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="san-pham">
+                    <div class="ten">QUẦN ỐNG SUÔNG</div>
+                    <img src="img/quan4.jpg" height="350px" /> 
+                    <div class="gia">
+                        <div>500.000đ</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </div>
+       <p id="footer" align="center">
+            <img src="img/sale.jpg" width="960" height="400" alt="">
+       </p>
+       <iframe 
+        src="https://www.google.com/maps/d/embed?mid=1yjQwd9lNrbrx_qLm15zaZnFyzG0eUd62&ehbc=2E312F" 
+        width="640" 
+        height="480">
+        </iframe>
+    </div>
+</body>
+</html>

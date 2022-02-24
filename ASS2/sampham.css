@@ -1,0 +1,41 @@
+.column{
+    width:25%;
+    float: left;
+}
+.san-pham{
+    border-radius:10px;
+    box-shadow: 5px gray;
+    padding:10px;
+    margin:5px;
+    text-align: center;
+}
+.san-pham .ten{
+    font-size:larger;
+    font-variant: small-caps;
+    color: blue;
+}
+.san-pham img{
+    max-width:95%
+}
+.san-pham .gia {
+    color: red;
+    font-weight:bold;
+    font-size:larger;
+}
+.menu>ul>li {
+    position: relative;
+}
+.menu ul ul {
+    position: absolute;
+    display: none;
+}
+.Submenu>li>a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px dotted black;
+
+}
+
+
+
